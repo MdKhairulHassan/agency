@@ -1,0 +1,77 @@
+/* All common Css Start */
+*{
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+a,a:hover{
+  text-decoration: none;
+  display: inline-block;
+}
+ul,ol{
+  list-style-type: none;
+}
+/* All common Css End */
+.navbar{
+  /* background: teal; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+.nav-link {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  transition: .4s;
+}
+.nav-link:hover {
+  color: #4756DF;
+}
+.contact_btn{
+  padding: 15px 40px;
+  color: #fff;
+  background: #4756DF;
+  border-radius: 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Banner Part Start */
+#banner-part{
+  background: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.banner_overly{
+  padding-top: 330px;
+  padding-bottom: 165px;
+  background: rgba(0, 0, 0, 0.62);
+}
+.banner_text h1{
+  font-family: "Inter", sans-serif;
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 120%;
+}
+.banner_text p{
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 0 214px;
+}
+.banner_text a{
+  padding: 15px 40px;
+  color: #fff;
+  background: #4756DF;
+  border-radius: 10px;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+/* Banner Part End */
